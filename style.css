@@ -7,8 +7,64 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+li {
+  list-style: none;
+  margin-top: 10px;
+}
+
+
 .main_cnt {
  width: 100vw;
  height: 100vh;
- background: green;
+background: white;
+}
+
+
+nav {
+  padding: 20px 50px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav img {
+  max-width: 200px;
+  color: black;
+}
+
+.content {
+  height: calc(100vh - 150px);
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  align-content: center;
+  text-align: center;
+  background: lightgrey;
+}
+
+.box {
+  align-self: center;
+  padding: 20px;
+  max-width: 80%;
+  border-radius: 12px;
+}
+
+.priceList_cnt {
+  list-style: none;
+  background :white;
+}
+
+.customerPrice_cnt {
+  color: white;
+  background: red;
+}
+
+.buyButton {
+  display: block;
+  max-width: 200px;
+  margin: 20px auto;
+  padding:15px 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  background: white;
 }
