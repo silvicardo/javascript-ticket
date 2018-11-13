@@ -1,5 +1,4 @@
 
-
 * {
   margin: 0;
   padding: 0;
@@ -21,15 +20,15 @@ background: white;
 
 
 nav {
-  padding: 20px 50px;
+  padding: 0px 50px;
   height: 150px;
   display: flex;
   justify-content: space-between;
+  align-content: center;
 }
 
 nav img {
-  max-width: 200px;
-  color: black;
+  max-width: 150px;
 }
 
 .content {
